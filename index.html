@@ -1,0 +1,135 @@
+<!--Metaetiquetas y configuración inicial-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <title>Tu Nombre | Portfolio</title>
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+<!--Header (cabecera)-->
+<header>
+    <div class="container header-container">
+        <div class="logo">
+            <span class="logo-initial">[TN]</span>
+            <span class="logo-name">[Tu Nombre]</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--Sección Hero (Inicio)-->
+<section id="inicio" class="hero">
+    <div class="container hero-container">
+        <div class="hero-content">
+            <h1>Hola, soy <span class="highlight">[Tu Nombre]</span></h1>
+            <p>Transformo ideas en experiencias digitales...</p>
+            <a href="#contacto" class="btn btn-primary">Contáctame</a>
+            <a href="https://github.com/tu-usuario" class="btn btn-github">GitHub</a>
+        </div>
+        <div class="hero-image">
+            <img src="..." alt="Avatar de [Tu Nombre] generado con IA">
+        </div>
+    </div>
+</section>
+<!--Sección Sobre Mí (personal)-->
+<section id="sobre-mi" class="about">
+    <div class="container">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Soy [Tu Nombre], un apasionado del desarrollo web...</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">1+</span>
+                        <span class="stat-label">Año de experiencia</span>
+                    </div>
+                    <!-- Más estadísticas -->
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="..." alt="Ilustración sobre mi trayectoria">
+            </div>
+        </div>
+    </div>
+</section>
+<!--Sección Habilidades-->
+<section id="habilidades" class="skills">
+    <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">🌐</div>
+                <h3>HTML5</h3>
+                <p>Estructura semántica y accesible...</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+                <span class="skill-level">90%</span>
+            </div>
+            <!-- Más tarjetas de habilidades -->
+        </div>
+    </div>
+</section>
+<!--Sección Contacto (con formulario)-->
+<section id="contacto" class="contact">
+    <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>¿Tenés un proyecto en mente? ¡Hablemos!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-emoji">📧</span>
+                        <a href="mailto:tu@email.com">tu@email.com</a>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" placeholder="tu@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="5" placeholder="¿En qué puedo ayudarte?" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar mensaje ✉️</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!--Footer (pie de página)-->
+<footer>
+    <div class="container footer-container">
+        <div class="footer-brand">
+            <span class="logo-initial">[TN]</span>
+            <span class="footer-name">[Tu Nombre]</span>
+        </div>
+        <div class="footer-links">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <!-- Más enlaces -->
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-social">
+            <a href="https://github.com/tu-usuario">GitHub</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 [Tu Nombre]. Hecho con ❤️</p>
+    </div>
+</footer>
