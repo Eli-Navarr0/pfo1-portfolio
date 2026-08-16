@@ -1,0 +1,77 @@
+/*Variables CSS (Supera el requisito)*/
+:root {
+    --color-primary: #6C63FF;
+    --color-bg: #0A0A1A;
+    --font-family: 'Inter', sans-serif;
+    --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*Header fijo con blur*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(10, 10, 26, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(108, 99, 255, 0.15);
+}
+/*Grid en secciones (requerido)*/
+/* Hero: dos columnas */
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+/* Habilidades: columnas automáticas */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+/*Flexbox en navegación (requerido)*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+}
+/*Transición y animación (requerido)*/
+/* Transición en hover de tarjetas */
+.skill-card {
+    transition: var(--transition);
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(108, 99, 255, 0.1);
+}
+
+/* Animación de flotación en la imagen del hero */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+.hero-image {
+    animation: float 6s ease-in-out infinite;
+}
+/*Responsive Design (requerido)*/
+/* Tablets */
+@media (max-width: 992px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+/* Móviles */
+@media (max-width: 640px) {
+    .nav-links {
+        gap: 16px;
+        font-size: 0.85rem;
+    }
+}
