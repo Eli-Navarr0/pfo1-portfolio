@@ -4,7 +4,6 @@
 Landing page de portfolio personal para el curso de Desarrollo Front End.
 
 ## URL de Vercel
-[https://pfo1-portfolio.vercel.app](https://pfo1-portfolio.vercel.app)
 https://pfo1-portfolio-git-main-elianavarro.vercel.app/
 
 ## Decisiones de diseño
