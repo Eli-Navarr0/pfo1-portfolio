@@ -5,6 +5,7 @@ Landing page de portfolio personal para el curso de Desarrollo Front End.
 
 ## URL de Vercel
 [https://pfo1-portfolio.vercel.app](https://pfo1-portfolio.vercel.app)
+https://pfo1-portfolio-git-main-elianavarro.vercel.app/
 
 ## Decisiones de diseño
 - **Paleta de colores**: Usé morado (#6C63FF) como color principal porque transmite creatividad y profesionalismo.
@@ -14,14 +15,17 @@ Landing page de portfolio personal para el curso de Desarrollo Front End.
 
 ## Declaración de uso de IA
 - **Herramienta**: ChatGPT (plan gratuito)
-- **Para qué**: Generación de estructura HTML base, estilos CSS y documentación
-- **Experiencia previa**: Nivel intermedio en desarrollo web
+- **Para qué**: Generación de estructura HTML base, estilos CSS, documentación e imagenes.
+- **Experiencia previa**: Nivel bàsico en desarrollo web
 - **Revisión y adaptación**: 
-  - Ajusté la paleta de colores manualmente
+  - Ajusté la paleta de colores
   - Personalicé el contenido textual
-  - Revisé y adapté todas las transiciones
-  - Verifiqué la accesibilidad de las imágenes con `alt` descriptivos
-
+  - Revisé y adapté todas las descripciones con datos personales
+  - Genere el prompt para las imàgenes
+  - Verifiqué la accesibilidad de las imágenes
+  - Comparé el código generado por la IA se correspondiera con la teoría del campus
+  - Verifiqué que Vercel se actualice respecto a Github impactando las modificaciones en la visualizaciòn de la pàgina
+    
 ## Estructura del proyecto
 ```
 pfo1-portfolio/
